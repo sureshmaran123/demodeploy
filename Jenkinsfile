@@ -65,7 +65,7 @@ pipeline {
                     fi
                     '''
                     // Run the new container
-                    sh 'docker run -d --name demo -p 8070:8080 sureshmaran/demo:latest'
+                    sh 'docker run -d --name demo -p 8070:8070 sureshmaran/demo:latest'
                 }
             }
         }

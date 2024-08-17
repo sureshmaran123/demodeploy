@@ -20,6 +20,6 @@ class ApiController {
 
 	@GetMapping("/greeting")
 	public String greeting() {
-		return "i love u samantha!";
+		return "hi  samantha!";
 	}
 }
